@@ -1,0 +1,2 @@
+export const LOAD_DATA_SUCCESS = "LOAD_DATA_SUCCESS";
+export const REQUEST_DATA = "REQUEST_DATA";

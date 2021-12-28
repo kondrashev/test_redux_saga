@@ -23,8 +23,10 @@ const ListSomething = () => {
   useEffect(() => {
     dispatch(getData());
   }, []);
+  // @ts-ignore
   const { data } = useSelector((state) => state.dataReducer);
   return (
+    // @ts-ignore
     <Box style={styles.list}>
       <List>
         {data.map((item) => (
